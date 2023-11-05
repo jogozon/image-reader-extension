@@ -3,7 +3,6 @@ import requests
 from PIL import Image
 from transformers import AutoProcessor, AutoModelForVision2Seq
 
-
 model = AutoModelForVision2Seq.from_pretrained("microsoft/kosmos-2-patch14-224")
 processor = AutoProcessor.from_pretrained("microsoft/kosmos-2-patch14-224")
 
